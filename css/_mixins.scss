@@ -3,6 +3,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 %clearfix {
@@ -20,4 +22,20 @@
 .wrapper,
 .row {
   @extend %clearfix;
+}
+
+%color-background-1 {
+  background-color: $color-1;
+}
+
+%color-background-2 {
+  background-color: $color-2;
+}
+
+%color-background-3 {
+  background-color: $color-3;
+}
+
+%color-background-4 {
+  background-color: $color-4;
 }
